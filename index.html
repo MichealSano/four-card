@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Four card feature section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 21px; text-align: center; background-color: lavenderblush; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: "Poppins" sans-serif;
+    
+    }
+    header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+    text-align: center;
+    margin: 20px 0;
+}
+.header1{
+  font-family:sans-serif ;
+  font-weight: 200;
+  text-align: center;
+  margin: 20px 0;}
+
+    *{
+      /*border: 1px solid grey;*/
+      margin: 2px;
+    }
+
+    #box{
+      background-color: white;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    #sup{
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-top: 5px solid hsl(180, 62%, 55%);
+      width: 300px;
+      height: 200px;
+      padding-top: 10px;
+      margin-right: 50px;
+      text-align: center;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+
+    #tea{
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-top: 5px solid hsl(0, 78%, 62%);
+      width: 300px;
+      height: 200px;
+      padding-top: 10px;
+      text-align: center;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+    }
+
+    #kar{
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-top:5px solid hsl(34, 97%, 64%);
+      width: 300px;
+      padding-top:10px;
+      height: 200px;
+      padding-bottom: 10px;
+      text-align: center;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+      
+    }
+
+    #cal{
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-decoration:;
+      padding-top: 10px;
+      border-top: 5px solid hsl(212, 86%, 64%);
+      height: 200px;
+      width: 300px;
+      box-shadow: 5px;
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .card{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Poppins" sans-serif;
+      font-size: 200;
+    }
+
+     .Com{
+      display:table-column;
+      
+     }
+
+     img{
+      height: 45px;
+      width: 45px;
+      padding-left: 200px;
+      margin-top: 20px;
+     }
+     #art{
+      font-size: 10px;
+      margin-top: 2px ;
+     }
+
+    #rel{
+      display: flex;
+      font-size: 10px;
+      margin-top: 30px;
+    }  
+
+    #pow{
+      font-size: 20px;
+      font-weight:900 ;
+      color: hsl(234, 12%, 34%)
+    }
+  </style>
+</head>
+<body>
+  <div id="box">
+
+    <header class="header1">
+      <h1>Reliable, efficient delivery</h1>
+         </header>
+     
+         <header>
+             <h1>Powered by Technology</h1>
+             <p>Our Artificial Intelligence powered tools use millions of project data</p> points to ensure that your project is successful.</p>
+         </header>
+
+    
+
+    <div class="card">
+
+      <div id="sup">
+        <h3>Supervisor</h3> <br>
+       Monitors activity to identify project roadblocks
+       <br>
+       <img src="./images/icon-supervisor.svg">
+       </div>
+      
+       <div class="Com">
+        <div id="tea">
+         <h3>Team Builder</h3> <br>
+        Scans our talent network to create the optimal team for your project
+        <br>
+        <br>
+  
+        <div>
+          <img src="./images/icon-team-builder.svg">
+        </div>
+        </div>
+         
+        <div id="kar">
+         <h3>Karma </h3><br>
+        Regularly evaluates our talent to ensure quality
+        <br>
+        <br>
+        <div>
+          <img src="./images/icon-karma.svg">
+        </div>
+        </div>
+       </div>
+       
+      
+      <div id="cal">
+        <h3>Calculator </h3><br>
+      Uses data from past projects to provide better delivery estimates
+      <br>
+      <br>
+
+      <div>
+        <img src="./images/icon-calculator.svg">
+      </div>
+      </div>
+    </div>
+    
+    
+  
+  
+  </div>
+  
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Micheal samson</a>.
+    </p>
+  </footer>
+</body>
+</html>
